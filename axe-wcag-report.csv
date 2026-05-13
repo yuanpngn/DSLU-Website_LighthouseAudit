@@ -1,0 +1,943 @@
+url,tool,audit_id,title,description,wcag,category,severity,impact,help_url,element,selector,failure_summary
+"https://www.dlsu.edu.ph/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">",".featured-news-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">12 Min Read
+                                            </p>",".card-stub.custom-card:nth-child(1) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".card-stub.custom-card:nth-child(2) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".card-stub.custom-card:nth-child(3) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""text-regular-bold white"">Research Stories</h4>",".text-regular-bold","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h5 class=""heading-5 font-secondary"">Welcoming ID126 Scholars through Layag Lasalyano</h5>",".desktop > .bulletin-card.custom-card:nth-child(1) > .card-content > .text-content > h5","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""font-normal heading-4 font-secondary"">DLSU KIST Park holds open house, welcomes two industry giants</h4>",".featured-news-content > h4","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/announcement/welcoming-id126-scholars-through-layag-lasalyano/"" class=""card-link"" style=""--cardImg: url(https://www.dlsu.edu.ph/wp-content/uploads/2026/05/Welcoming-ID126-Scholars-through-Layag-Lasalyano-CB.png);""></a>",".desktop > .bulletin-card.custom-card:nth-child(1) > .card-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/announcement/the-greening-2026-campus-orientation-for-all-accepted-students/"" class=""card-link"" style=""--cardImg: url(https://www.dlsu.edu.ph/wp-content/uploads/2026/05/The-Greening-2026-Campus-Orientation-for-all-Accepted-Students-CB.png);""></a>",".desktop > .bulletin-card.custom-card:nth-child(2) > .card-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/announcement/soll-in-partnership-with-dac-cpd-seminar-series-for-professional-accountants/"" class=""card-link"" style=""--cardImg: url(https://www.dlsu.edu.ph/wp-content/uploads/2026/03/School-of-Lifelong-Learning-CPD-Seminar-Series-for-Professional-Accountants-thumb.png);"">",".desktop > .bulletin-card.custom-card:nth-child(3) > .card-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn modal-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".modal-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""modal-landing active"" id=""dlsu-modal-landing"">","#dlsu-modal-landing","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://www.dlsu.edu.ph/academics/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""heading-4 font-normal font-secondary"">
+                            Looking for our complete list of degree programs?                        </h4>",".card-block > h4","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/academics/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/academics/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/academics/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/academics/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn secondary"">",".grid-item.card-hover-animation:nth-child(11) > .content > .secondary.btn[href=""#""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/academics/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn secondary"">",".grid-item.card-hover-animation:nth-child(12) > .content > .secondary.btn[href=""#""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/academics/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/academics/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://www.dlsu.edu.ph/admission/landing/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/admission/landing/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/admission/landing/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/admission/landing/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/admission/landing/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-center/centers/"" class=""btn menu-link "">Centers</a>",".inner-header > ul > li:nth-child(2) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-office/offices/"" class=""btn menu-link "">Offices</a>",".inner-header > ul > li:nth-child(3) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-pub-hil/publication-highlights/"" class=""btn menu-link "">Publication
+                        Highlights</a>",".inner-header > ul > li:nth-child(4) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-event/events/"" class=""btn menu-link "">Research
+                        Events</a>",".inner-header > ul > li:nth-child(5) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-journal/journals/"" class=""btn menu-link "">Journals</a>",".inner-header > ul > li:nth-child(6) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-manual/manuals/"" class=""btn menu-link "">Manuals</a>",".inner-header > ul > li:nth-child(7) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""https://www.dlsu.edu.ph/research-project/projects/"" class=""btn menu-link "">Projects</a>",".inner-header > ul > li:nth-child(8) > .menu-link.btn","Fix any of the following:
+  Element has insufficient color contrast of 2.37 (foreground color: #66a586, background color: #006936, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<div class=""heading-6 text-gray font-500"">Total number of journals</div>",".item:nth-child(1) > .font-500.heading-6.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<div class=""heading-6 text-gray font-500"">Teaching faculty members</div>",".item:nth-child(2) > .font-500.heading-6.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<div class=""heading-6 text-gray font-500"">Total number of free resources</div>",".item:nth-child(3) > .font-500.heading-6.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">",".featured-news-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">12 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(1) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(2) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(3) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h5 class=""heading-5 font-secondary font-normal"">
+                        Looking to submit a publication?                    </h5>",".contact-block > h5","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""font-normal heading-4 font-secondary"">DLSU KIST Park holds open house, welcomes two industry giants</h4>",".featured-news-content > h4","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h6 class=""font-secondary heading-6 font-normal"">College of Science Center for Natural Sciences and Environmental Research</h6>",".grid-item:nth-child(1) > .grid-content > h6","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/research-overview/overview/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://www.dlsu.edu.ph/global/international-students/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">",".featured-news-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/global/international-students/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">12 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(1) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/global/international-students/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(2) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/global/international-students/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(3) > .card-content > .text-regular-medium.text-gray","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/global/international-students/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""font-normal heading-4 font-secondary"">DLSU KIST Park holds open house, welcomes two industry giants</h4>",".featured-news-content > h4","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/global/international-students/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/global/international-students/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/global/international-students/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/global/international-students/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/global/international-students/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://www.dlsu.edu.ph/about/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">",".featured-news-content > .text-gray.text-regular-medium","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/about/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">12 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(1) > .card-content > .text-gray.text-regular-medium","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/about/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(2) > .card-content > .text-gray.text-regular-medium","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/about/","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<p class=""text-regular-medium text-gray"">15 Min Read
+                                            </p>",".custom-card.card-stub:nth-child(3) > .card-content > .text-gray.text-regular-medium","Fix any of the following:
+  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://www.dlsu.edu.ph/about/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""font-normal heading-4 font-secondary"">DLSU KIST Park holds open house, welcomes two industry giants</h4>",".featured-news-content > h4","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/about/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/about/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/about/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/about/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/about/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h5 class=""font-secondary heading-5 font-normal"">DLSU KIST Park holds open house, welcomes two industry giants</h5>",".with-calendar.grid-item:nth-child(1) > .grid-content > .heading-5","Fix any of the following:
+  Heading order invalid"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/campus-life-landing/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h4 class=""widget-title"">Office of the University Registrar</h4>","#nav_menu-110 > h4","Fix any of the following:
+  Heading order invalid"
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-110"" class=""widget widget_nav_menu"">","#nav_menu-110","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-111"" class=""widget widget_nav_menu"">","#nav_menu-111","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-112"" class=""widget widget_nav_menu"">","#nav_menu-112","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-113"" class=""widget widget_nav_menu""><h4 class=""widget-title"">Dean’s Honor List</h4></aside>","#nav_menu-113","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-114"" class=""widget widget_nav_menu"">","#nav_menu-114","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-115"" class=""widget widget_nav_menu"">","#nav_menu-115","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-116"" class=""widget widget_nav_menu"">","#nav_menu-116","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-117"" class=""widget widget_nav_menu"">","#nav_menu-117","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""nav_menu-118"" class=""widget widget_nav_menu"">","#nav_menu-118","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""width-navigation table-cell table-right"">",".width-navigation","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<div id=""sidebar"" class=""widget-area col-sm-3 sticky-sidebar sidebar_header_v4"" role=""complementary"" style=""position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;"">","#sidebar","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#""><img src=""/wp-content/uploads/2018/02/the-future-begins-here-300x22.png"" alt="""" width=""300"" height=""22"" class=""alignnone size-medium wp-image-10456""></a>","center > a[href=""#""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" id=""back-to-top"">
+				<i class=""fa fa-chevron-up"" aria-hidden=""true""></i>
+			</a>","#back-to-top","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/offices/registrar/academic-calendar/","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""top_heading  _out"">",".top_heading","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://www.dlsu.edu.ph/program/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""top-bar-content"">",".top-bar-content","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://www.dlsu.edu.ph/program/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph/"" class=""logo"">",".logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/program/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn menu-close-btn"">
+                        <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                    </a>",".menu-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/program/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" class=""btn modal-close-btn"">
+                    <img src=""https://www.dlsu.edu.ph/wp-content/themes/dlsu/assets/images/icon/x-close.svg"" alt="""">
+                </a>",".modal-close-btn","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/program/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://www.dlsu.edu.ph"" class=""site-logo"">
+        <img src=""https://www.dlsu.edu.ph/wp-content/uploads/2025/02/logo.png"" alt="""">
+    </a>",".site-logo","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(1)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(2)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>",".wrapper > nav > ul:nth-child(3)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(4)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(5)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(6)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(7)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(8)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","list","<ul> and <ol> must only directly contain <li>, <script> or <template> elements","Ensures that lists are structured correctly","Needs Manual Mapping","Structure","High","serious","https://dequeuniversity.com/rules/axe/4.9/list?application=axeAPI","<ul>","ul:nth-child(9)","Fix all of the following:
+  List element has direct children that are not allowed: div"
+"https://www.dlsu.edu.ph/program/","axe","page-has-heading-one","Page should contain a level-one heading","Ensure that the page, or at least one of its frames contains a level-one heading","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/page-has-heading-one?application=axeAPI","<html lang=""en"">","html","Fix all of the following:
+  Page must have a level-one heading"
+"https://old.dlsu.edu.ph/offices/osa/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""width-navigation table-cell table-right"">",".width-navigation","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://old.dlsu.edu.ph/offices/osa/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""facebook hasTooltip"" href=""https://www.facebook.com/DLSUStudentAffairs"" target=""_blank""><i class=""fa fa-facebook""></i></a>",".facebook","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/offices/osa/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""twitter hasTooltip"" href=""https://twitter.com/dlsu_osa"" target=""_blank""><i class=""fa fa-twitter""></i></a>",".twitter","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/offices/osa/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""instagram hasTooltip"" href=""https://www.instagram.com/dlsustudentaffairs/"" target=""_blank""><i class=""fa fa-instagram""></i></a>",".instagram","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/offices/osa/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#""><img src=""/wp-content/uploads/2018/02/the-future-begins-here-300x22.png"" alt="""" width=""300"" height=""22"" class=""alignnone size-medium wp-image-10456""></a>","center > a[href=""#""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/offices/osa/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" id=""back-to-top"">
+				<i class=""fa fa-chevron-up"" aria-hidden=""true""></i>
+			</a>","#back-to-top","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/faculty/","axe","image-alt","Images must have alternate text","Ensures <img> elements have alternate text or a role of none or presentation","1.1.1","Images","High","critical","https://dequeuniversity.com/rules/axe/4.9/image-alt?application=axeAPI","<img src=""/wp-content/uploads/2018/08/search-3-24.png"">","#id6a03e2ee94cbb > img","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://old.dlsu.edu.ph/faculty/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""custom_html-7"" class=""widget_text widget widget_custom_html""><div class=""textwidget custom-html-widget""></div></aside>","#custom_html-7","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/faculty/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""list-post-8"" class=""widget widget_list-post""><div class=""thim-widget-list-post thim-widget-list-post-base""></div></aside>","#list-post-8","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/faculty/","axe","landmark-complementary-is-top-level","Aside should not be contained in another landmark","Ensures the complementary landmark or aside is at top level","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-complementary-is-top-level?application=axeAPI","<aside id=""siteorigin-panels-builder-15"" class=""widget widget_siteorigin-panels-builder"">","#siteorigin-panels-builder-15","Fix any of the following:
+  The complementary landmark is contained in another landmark."
+"https://old.dlsu.edu.ph/faculty/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""width-navigation table-cell table-right"">",".width-navigation","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://old.dlsu.edu.ph/faculty/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<div id=""sidebar"" class=""widget-area col-sm-3 sticky-sidebar sidebar_header_v4"" role=""complementary"" style=""position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;"">","#sidebar","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://old.dlsu.edu.ph/faculty/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#""><img src=""/wp-content/uploads/2018/02/the-future-begins-here-300x22.png"" alt="""" width=""300"" height=""22"" class=""alignnone size-medium wp-image-10456""></a>","center > a[href=""#""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/faculty/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""#"" id=""back-to-top"">
+				<i class=""fa fa-chevron-up"" aria-hidden=""true""></i>
+			</a>","#back-to-top","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/faculty/","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""top_heading  _out"">",".top_heading","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://old.dlsu.edu.ph/give/","axe","landmark-unique","Ensures landmarks are unique","Landmarks should have a unique role or role/label/title (i.e. accessible name) combination","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/landmark-unique?application=axeAPI","<nav class=""width-navigation table-cell table-right"">",".width-navigation","Fix any of the following:
+  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""vc_icon_element-link"" href=""#info"" title="""" target=""_self""></a>","a[href$=""#info""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has an empty title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""vc_icon_element-link"" href=""#whygive"" title="""" target=""_self""></a>",".vc_icon_element-link[title=""""][href$=""#whygive""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has an empty title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://old.dlsu.edu.ph/wp-content/uploads/2024/01/lasallian-giving-bank-details-01222024.png"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey fancybox image"" aria-controls=""fancybox-wrap"" aria-haspopup=""dialog"">","#whygive > .vc_col-sm-8.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://old.dlsu.edu.ph/wp-content/uploads/2024/01/lasallian-giving-bank-details-01222024.png"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey fancybox image"" aria-controls=""fancybox-wrap"" aria-haspopup=""dialog"">","#whygive > .vc_col-sm-8.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://old.dlsu.edu.ph/wp-content/uploads/2024/01/lasallian-giving-bank-details-01222024.png"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey fancybox image"" aria-controls=""fancybox-wrap"" aria-haspopup=""dialog"">","#whygive > .vc_col-sm-8.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://ecom.dlsu.edu.ph/give/dlsugive.aspx?id=PROFCHAIR"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"">",".vc_col-sm-12.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://ecom.dlsu.edu.ph/give/dlsugive.aspx?id=RESEARCH"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"">",".vc_col-sm-12.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://ecom.dlsu.edu.ph/give/dlsugive.aspx?id=50THANNIV"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey"">",".vc_col-sm-12.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://old.dlsu.edu.ph/wp-content/uploads/2024/01/lasallian-giving-bank-details-01222024.png"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey fancybox image"" aria-controls=""fancybox-wrap"" aria-haspopup=""dialog"">",".vc_custom_1767776210190 > .vc_col-sm-8.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(1) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://old.dlsu.edu.ph/wp-content/uploads/2024/01/lasallian-giving-bank-details-01222024.png"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey fancybox image"" aria-controls=""fancybox-wrap"" aria-haspopup=""dialog"">",".vc_custom_1767776210190 > .vc_col-sm-8.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(2) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a href=""https://old.dlsu.edu.ph/wp-content/uploads/2024/01/lasallian-giving-bank-details-01222024.png"" target=""_blank"" class=""vc_single_image-wrapper vc_box_rounded  vc_box_border_grey fancybox image"" aria-controls=""fancybox-wrap"" aria-haspopup=""dialog"">",".vc_custom_1767776210190 > .vc_col-sm-8.wpb_column.vc_column_container > .vc_column-inner > .wpb_wrapper > .vc_row-o-equal-height.vc_inner.vc_row-flex > .vc_col-sm-4.wpb_column.vc_column_container:nth-child(3) > .vc_column-inner > .wpb_wrapper > .vc_align_center.wpb_single_image.wpb_content_element > figure > .vc_box_rounded.vc_single_image-wrapper.vc_box_border_grey","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""facebook hasTooltip"" href=""facebook.com/dlsuarrow"" target=""_blank""><i class=""fa fa-facebook""></i></a>",".facebook.hasTooltip[href$=""dlsuarrow""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""twitter hasTooltip"" href=""twitter.com/dlsuarrow"" target=""_blank""><i class=""fa fa-twitter""></i></a>",".twitter.hasTooltip[href$=""dlsuarrow""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a class=""instagram hasTooltip"" href=""instagram.com/dlsuarrow"" target=""_blank""><i class=""fa fa-instagram""></i></a>","li:nth-child(3) > .instagram.hasTooltip[href$=""dlsuarrow""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://old.dlsu.edu.ph/give/","axe","link-name","Links must have discernible text","Ensures links have discernible text","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/link-name?application=axeAPI","<a target="" _blank"" href=""https://old.dlsu.edu.ph/""><img src=""https://old.dlsu.edu.ph/wp-content/uploads/2017/10/dlsu-logo-white.png"" alt=""""></a>","a[target="" _blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","aria-allowed-role","ARIA role should be appropriate for the element","Ensures role attribute has an appropriate value for the element","4.1.2","ARIA","Low","minor","https://dequeuniversity.com/rules/axe/4.9/aria-allowed-role?application=axeAPI","<button type=""button"" role=""presentation"" class=""owl-prev""><i class=""bi bi-chevron-left""></i></button>",".owl-prev","Fix any of the following:
+  ARIA role presentation is not allowed for given element"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","aria-allowed-role","ARIA role should be appropriate for the element","Ensures role attribute has an appropriate value for the element","4.1.2","ARIA","Low","minor","https://dequeuniversity.com/rules/axe/4.9/aria-allowed-role?application=axeAPI","<button type=""button"" role=""presentation"" class=""owl-next""><i class=""bi bi-chevron-right""></i></button>",".owl-next","Fix any of the following:
+  ARIA role presentation is not allowed for given element"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","aria-valid-attr-value","ARIA attributes must conform to valid values","Ensures all ARIA attributes have valid values","4.1.2","ARIA","High","critical","https://dequeuniversity.com/rules/axe/4.9/aria-valid-attr-value?application=axeAPI","<div class=""iti__selected-flag"" role=""combobox"" aria-controls=""iti-0__country-listbox"" aria-owns=""iti-0__country-listbox"" aria-expanded=""false"" tabindex=""0"" title=""Philippines: +63"" aria-activedescendant=""iti-0__item-ph""><div class=""iti__flag iti__ph""></div><div class=""iti__arrow""></div></div>",".iti__selected-flag","Fix all of the following:
+  Invalid ARIA attribute value: aria-activedescendant=""iti-0__item-ph"""
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","button-name","Buttons must have discernible text","Ensures buttons have discernible text","Needs Manual Mapping","Other","High","critical","https://dequeuniversity.com/rules/axe/4.9/button-name?application=axeAPI","<button type=""button"" role=""presentation"" class=""owl-prev""><i class=""bi bi-chevron-left""></i></button>",".owl-prev","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's role is not presentational because it is focusable"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","button-name","Buttons must have discernible text","Ensures buttons have discernible text","Needs Manual Mapping","Other","High","critical","https://dequeuniversity.com/rules/axe/4.9/button-name?application=axeAPI","<button type=""button"" role=""presentation"" class=""owl-next""><i class=""bi bi-chevron-right""></i></button>",".owl-next","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's role is not presentational because it is focusable"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","button-name","Buttons must have discernible text","Ensures buttons have discernible text","Needs Manual Mapping","Other","High","critical","https://dequeuniversity.com/rules/axe/4.9/button-name?application=axeAPI","<button role=""button"" class=""owl-dot active""><span></span></button>",".owl-dot.active[role=""button""]","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","button-name","Buttons must have discernible text","Ensures buttons have discernible text","Needs Manual Mapping","Other","High","critical","https://dequeuniversity.com/rules/axe/4.9/button-name?application=axeAPI","<button role=""button"" class=""owl-dot""><span></span></button>",".owl-dot[role=""button""]:nth-child(2)","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<a href=""#"" class=""text-end text-decoration-none"" data-fullcontent=""%3Cp%3E%3Cstrong%3ESign%20Up%20for%20an%20Admissions%20Account%3C%2Fstrong%3E%3C%2Fp%3E%3Cp%3EBegin%20your%20Lasallian%20Journey%20now!%20Check%20out%20this%20%3Ca%20href%3D%22https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DUbGc-t-F7wg%22%20rel%3D%22noopener%20noreferrer%22%20target%3D%22_blank%22%3Evideo%3C%2Fa%3E.%3C%2Fp%3E%3Cp%3E%3Cem%3EApplicants%20under%2018%20years%20of%20age%20at%20the%20time%20of%20sign-up%20must%20submit%20their%20applications%20through%20their%20parents%20or%20legal%20guardians.%3C%2Fem%3E%3C%2Fp%3E"" data-bs-toggle=""modal"" data-bs-target=""#readMoreContentModal"">",".active.owl-item:nth-child(3) > .item.flex-column > p > .read-more-application.d-block.text-end > .text-decoration-none[data-bs-target=""#readMoreContentModal""][href=""#""]","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #2a83f4, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<div class=""custom-radio-desc text-nowrap"">Sign up as Applicant</div>",".me-2 > .radio-container.align-items-center.d-flex > .custom-radio-desc.text-nowrap","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<button type=""button"" id=""SignUp"" class=""btn btn-sign btn-primary btn-sign-hover mt-2"">Sign Up <i class=""bi bi-chevron-right""></i></button>","#SignUp","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<button type=""button"" id=""exploreall"" class=""btn"">
+                                    Explore
+                                    all
+                                </button>","#exploreall","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<span>Â© <span id=""copyRightYear"">2026</span>  MasterSoftâ„¢. All Rights Reserved</span>","#footer-container-section > span:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<span id=""copyRightYear"">2026</span>","#copyRightYear","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<span class=""cursor"" id=""privacypolicy"">
+                        Privacy Policy
+                    </span>","#privacypolicy","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","color-contrast","Elements must meet minimum color contrast ratio thresholds","Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","Needs Manual Mapping","Visual Contrast","High","serious","https://dequeuniversity.com/rules/axe/4.9/color-contrast?application=axeAPI","<span class=""cursor"" id=""termscondition"">Terms &amp; Conditions</span>","#termscondition","Fix any of the following:
+  Element has insufficient color contrast of 3.71 (foreground color: #ffffff, background color: #2a83f4, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h2 id=""applicationheading""></h2>","#applicationheading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h4 id=""applicationsheading""></h4>","#applicationsheading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h4 id=""stepsheading""></h4>","#stepsheading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h4 id=""announcementsheading""></h4>","#announcementsheading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h4 id=""importantDatesHeading""></h4>","#importantDatesHeading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h4 id=""faqheading""></h4>","#faqheading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","empty-heading","Headings should not be empty","Ensures headings have discernible text","Needs Manual Mapping","Other","Low","minor","https://dequeuniversity.com/rules/axe/4.9/empty-heading?application=axeAPI","<h4 id=""contactheading""></h4>","#contactheading","Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","heading-order","Heading levels should only increase by one","Ensures the order of headings is semantically correct","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/heading-order?application=axeAPI","<h5>Sign up</h5>","#hero-form-section-header > h5","Fix any of the following:
+  Heading order invalid"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","html-has-lang","<html> element must have a lang attribute","Ensures every HTML document has a lang attribute","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/html-has-lang?application=axeAPI","<html>","html","Fix any of the following:
+  The <html> element does not have a lang attribute"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","presentation-role-conflict","Ensure elements marked as presentational are consistently ignored","Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them","4.1.2","ARIA","Low","minor","https://dequeuniversity.com/rules/axe/4.9/presentation-role-conflict?application=axeAPI","<button type=""button"" role=""presentation"" class=""owl-prev""><i class=""bi bi-chevron-left""></i></button>",".owl-prev","Fix all of the following:
+  Element is not focusable."
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","presentation-role-conflict","Ensure elements marked as presentational are consistently ignored","Elements marked as presentational should not have global ARIA or tabindex to ensure all screen readers ignore them","4.1.2","ARIA","Low","minor","https://dequeuniversity.com/rules/axe/4.9/presentation-role-conflict?application=axeAPI","<button type=""button"" role=""presentation"" class=""owl-next""><i class=""bi bi-chevron-right""></i></button>",".owl-next","Fix all of the following:
+  Element is not focusable."
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<span class=""d-block mb-2""><a href=""#"" class=""text-white read-more-app-desc"" data-bs-toggle=""modal"" data-bs-target=""#readMoreAppDescModal"">Read More</a></span>",".d-block.mb-2","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""owl-stage-outer"">",".owl-stage-outer","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div id=""hero-form-section-header"" class="" px-3"">
+                                    <h5>Sign up</h5>
+                                </div>","#hero-form-section-header","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""custom-radio-desc text-nowrap"">Sign up as Applicant</div>",".me-2 > .radio-container.align-items-center.d-flex > .custom-radio-desc.text-nowrap","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""custom-radio-desc text-nowrap"">Sign up as Parent / Legal Guardian</div>","div:nth-child(2) > .radio-container.align-items-center.d-flex > .custom-radio-desc.text-nowrap","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""col-lg-6 col-md-6 col-12"">","#SignUpDiv > .col-lg-6.col-md-6.col-12:nth-child(1)","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""col-lg-6 col-md-6 col-12"">","#SignUpDiv > .col-lg-6.col-md-6.col-12:nth-child(2)","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""col-lg-6 col-md-6 col-12"">",".col-lg-6.col-md-6.col-12:nth-child(3)","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<label><sup class=""text-danger me-1"">*</sup><span>Mobile No</span></label>","#divMobileNo > label","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""iti iti--allow-dropdown"">",".iti","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""col-lg-6 col-md-6 col-12  mb-3"" id=""configDOB"">","#configDOB","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<label><sup class=""text-danger me-1"">*</sup><span>Study Level</span></label>","#configStudyLevel > .form-group > label","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<span class=""selection"">","#configStudyLevel > .form-group > div > .select2-container.select2-container--default[dir=""ltr""] > .selection","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<label><sup class=""text-danger me-1"">*</sup><span>Program Interested In</span></label>","#configProgramsInterested > .form-group > label","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<span class=""selection"">","#configProgramsInterested > .form-group > div > .select2-container.select2-container--default[dir=""ltr""] > .selection","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<label><sup class=""text-danger me-1"">*</sup><span>Intake</span></label>","#configIntake > .form-group > label","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<span class=""selection"">","#configIntake > .form-group > div > .select2-container.select2-container--default[dir=""ltr""] > .selection","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","region","All page content should be contained by landmarks","Ensures all page content is contained by landmarks","Needs Manual Mapping","Other","Medium","moderate","https://dequeuniversity.com/rules/axe/4.9/region?application=axeAPI","<div class=""container-fluid"" id=""footer-section"">","#footer-section","Fix any of the following:
+  Some page content is not contained by landmarks"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<input type=""text"" class=""form-control"" required="""" placeholder=""e.g. Last Name"" id=""txtLastName"" name=""txtLastName"" tabindex=""1"" spellcheck=""true"">","#txtLastName","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<input type=""text"" class=""form-control"" required="""" placeholder=""e.g. First Name"" id=""txtFirstName"" name=""txtFirstName"" tabindex=""1"" spellcheck=""true"">","#txtFirstName","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<input type=""text"" class=""form-control"" required="""" placeholder=""e.g. Email"" id=""txtEmail"" name=""txtEmail"" tabindex=""1"" spellcheck=""true"">","#txtEmail","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<input type=""text"" class=""form-control txtMobileNo"" required="""" placeholder=""e.g. Mobile No"" oncut=""return false"" oncopy=""return false"" onpaste=""return false"" ondrag=""return false"" ondrop=""return false"" id=""txtMobileNo"" name=""txtMobileNo"" tabindex=""1"" spellcheck=""true"" autocomplete=""off"" data-intl-tel-input-id=""0"">","#txtMobileNo","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<input type=""text"" onkeypress=""return false;"" class=""form-control dateRange-singleLanding"" required="""" placeholder=""e.g. MM/DD/YYYY"" id=""txtDOB"" name=""txtDOB"" tabindex=""1"" spellcheck=""true"">","#txtDOB","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<span class=""select2-selection select2-selection--single"" role=""combobox"" aria-haspopup=""true"" aria-expanded=""false"" tabindex=""1"" aria-labelledby=""select2-ddlStudyLevel-container"">","#configStudyLevel > .form-group > div > .select2-container.select2-container--default[dir=""ltr""] > .selection > .select2-selection.select2-selection--single[aria-haspopup=""true""]","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<span class=""select2-selection select2-selection--single"" role=""combobox"" aria-haspopup=""true"" aria-expanded=""false"" tabindex=""1"" aria-labelledby=""select2-ddlProgramsInterested-container"">","#configProgramsInterested > .form-group > div > .select2-container.select2-container--default[dir=""ltr""] > .selection > .select2-selection.select2-selection--single[aria-haspopup=""true""]","Fix any of the following:
+  Element has a tabindex greater than 0"
+"https://applyarchershub.dlsu.edu.ph/ApplicationLandingPage/index/DLSU","axe","tabindex","Elements should not have tabindex greater than zero","Ensures tabindex attribute values are not greater than 0","Needs Manual Mapping","Other","High","serious","https://dequeuniversity.com/rules/axe/4.9/tabindex?application=axeAPI","<span class=""select2-selection select2-selection--single"" role=""combobox"" aria-haspopup=""true"" aria-expanded=""false"" tabindex=""1"" aria-labelledby=""select2-ddlIntake-container"">","span[aria-labelledby=""select2-ddlIntake-container""]","Fix any of the following:
+  Element has a tabindex greater than 0"
